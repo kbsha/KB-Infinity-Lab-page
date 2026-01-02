@@ -1,67 +1,196 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>AI & Robotics Research Lab | Kigali</title>
-    <link rel="stylesheet" href="css/style.css">
-    <script defer src="js/main.js"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>KB-Infinity Lab | Intelligent Robotics & AI Research – Kigali</title>
+
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="js/main.js"></script>
 </head>
 <body>
 
+<!-- ================= HEADER ================= -->
 <header class="navbar">
-    <h1>AI & Robotics Lab</h1>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="research.html">Research</a>
-        <a href="projects.html">Projects</a>
-        <a href="publications.html">Publications</a>
-        <a href="gallery.html">Gallery</a>
-        <a href="blog.html">Blog</a>
-        <a href="contact.html">Contact</a>
-    </nav>
+  <div class="logo">
+    KB-Infinity<span>Lab</span>
+  </div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="#about">About</a>
+    <a href="#research">Research</a>
+    <a href="#projects">Projects</a>
+    <a href="#publications">Publications</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="blog.html">Blog</a>
+    <a href="founder.html">Team</a>
+    <a href="#contact">Contact</a>
+  </nav>
 </header>
 
+<!-- ================= HERO ================= -->
 <section class="hero">
-    <h2>Autonomous Systems • Intelligent Control • Embedded AI</h2>
+  <h1>
+    Intelligent Robotics & AI<br>
+    <span>for Real-World Autonomous Systems</span>
+  </h1>
+
+  <p>
+    KB-Infinity Lab (Kigali Intelligent Robotics & AI Laboratory) is a multidisciplinary
+    research lab advancing autonomous systems, intelligent control, embedded AI,
+    and secure cyber-physical systems in Africa.
+  </p>
+
+  <a href="#projects" class="btn">Explore Research</a>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section id="about" class="section">
+  <h2>About the Lab</h2>
+
+  <p>
+    KB-Infinity Lab is an applied research laboratory focused on bridging advanced
+    academic research with deployable, resource-efficient autonomous and intelligent
+    systems. The lab integrates robotics, Model Predictive Control (MPC),
+    machine learning, embedded systems, and cybersecurity.
+  </p>
+
+  <p>
+    The lab is aligned with PhD-level research and operates in close connection with
+    academic institutions, industry partners, and innovation ecosystems.
+  </p>
+</section>
+
+<!-- ================= RESEARCH ================= -->
+<section id="research" class="section dark">
+  <h2>Research Pillars</h2>
+
+  <div class="grid">
+    <div class="card">
+      <h3>Autonomous Systems</h3>
+      <p>Autonomous Ground Vehicles (AGVs), mobile robots, navigation and planning.</p>
+    </div>
+
+    <div class="card">
+      <h3>Intelligent Control</h3>
+      <p>Model Predictive Control (MPC), hybrid MPC + learning, robust control.</p>
+    </div>
+
+    <div class="card">
+      <h3>Edge AI & Perception</h3>
+      <p>Computer vision, deep learning, efficient inference on embedded platforms.</p>
+    </div>
+
+    <div class="card">
+      <h3>Cyber-Physical Security</h3>
+      <p>AI-based intrusion detection and anomaly monitoring for IoT systems.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PROJECTS ================= -->
+<section id="projects" class="section">
+  <h2>Flagship Projects</h2>
+
+  <div class="grid">
+    <div class="card">
+      <h3>URBAN-NAV</h3>
+      <p>
+        Uncertainty-aware vision-based autonomous navigation using hybrid MPC
+        on edge robotics platforms.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>SAFE-EDGE</h3>
+      <p>
+        AI-driven anomaly detection and safety monitoring for autonomous
+        and cyber-physical systems.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>AI-Based IDS for IoT</h3>
+      <p>
+        Hybrid CNN–Transformer–BiLSTM intrusion detection system optimized
+        for resource-constrained environments.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Intelligent MPC for AGVs</h3>
+      <p>
+        Real-time trajectory planning, obstacle avoidance, and adaptive control
+        for autonomous ground vehicles.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PUBLICATIONS ================= -->
+<section id="publications" class="section dark">
+  <h2>Publications & Research Outputs</h2>
+
+  <ul class="pub-list">
+    <li>
+      <strong>MSc Thesis:</strong> Hybrid Deep Learning-Based Intrusion Detection
+      System for IoT Networks
+      <a href="https://www.itu.int/net/epub/TSB/2025-AI-for-Good-Innovate-for-Impact/index.html#p=471" target="_blank">
+        [ITU Link]
+      </a>
+    </li>
+
+    <li>
+      <strong>BSc Project:</strong> Intelligent Interface Control for Users with Disabilities
+      <a href="https://www.itu.int/net/epub/TSB/2025-AI-for-Good-Innovate-for-Impact/index.html#p=773" target="_blank">
+        [ITU Link]
+      </a>
+    </li>
+
+    <li>
+      <strong>Ongoing:</strong> Intelligent MPC for Autonomous Ground Vehicles
+      (publication in preparation)
+    </li>
+
+    <li>
+      Open-source robotics controllers & datasets
+      <a href="https://github.com/kbsha/kb_Robotics/tree/main/kb_robot_controller/kb_robot_controller" target="_blank">
+        [GitHub]
+      </a>
+    </li>
+  </ul>
+</section>
+
+<!-- ================= TEAM ================= -->
+<section id="team" class="section">
+  <h2>Team</h2>
+
+  <div class="team-card">
+    <h3>Founder & Research Director</h3>
     <p>
-        A multidisciplinary research lab advancing robotics, AI-driven control,
-        and secure cyber-physical systems in Africa.
+      MSc Researcher at the African Institute for Mathematical Sciences –
+      Research and Innovation Centre (AIMS-RIC), Kigali.
     </p>
-    <a class="btn" href="projects.html">Explore Projects</a>
+
+    <p>
+      Research focus includes autonomous systems, robotics, intelligent control (MPC),
+      embedded AI, and cybersecurity for cyber-physical systems.
+    </p>
+
+    <a href="about.html" class="btn">View Full Academic Profile</a>
+  </div>
 </section>
 
-<section class="section">
-    <h3>Research Focus</h3>
-    <div class="grid">
-        <div class="card">Autonomous Ground Vehicles (AGVs)</div>
-        <div class="card">Model Predictive Control (MPC)</div>
-        <div class="card">Embedded AI & Robotics</div>
-        <div class="card">Cybersecurity for IoT</div>
-    </div>
+<!-- ================= CONTACT ================= -->
+<section id="contact" class="section dark">
+  <h2>Contact</h2>
+  <p>Email: <strong>contact@kb-infinity.ai</strong></p>
+  <p>Location: Kigali, Rwanda</p>
 </section>
 
-<section class="section dark">
-    <h3>Flagship Projects</h3>
-    <div class="grid">
-        <div class="card">
-            <h4>Intelligent MPC for AGVs</h4>
-            <p>Adaptive trajectory planning and control.</p>
-        </div>
-        <div class="card">
-            <h4>AI-Based IDS for IoT</h4>
-            <p>Hybrid CNN–Transformer–BiLSTM model.</p>
-        </div>
-    </div>
-</section>
-
-<section class="section">
-    <h3>Latest Updates</h3>
-    <p>Research articles, lab events, and technical blogs.</p>
-</section>
-
+<!-- ================= FOOTER ================= -->
 <footer>
-    <p>© 2025 AI & Robotics Research Lab – Kigali</p>
+  <p>© 2025 KB-Infinity Lab — Research before hype.</p>
 </footer>
 
 </body>

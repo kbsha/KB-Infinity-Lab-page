@@ -1,13 +1,101 @@
-<section class="section">
-<h2>Blog & Articles</h2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-<article class="card">
-    <h3>Why MPC + Learning Is the Future of Robotics</h3>
-    <p>Exploring intelligent control for real-world AGVs.</p>
-</article>
+  <title>Blog | KB-Infinity Lab – Research & Insights</title>
 
-<article class="card">
-    <h3>AI for Cybersecurity in IoT Systems</h3>
-    <p>From CNNs to Transformers in IDS.</p>
-</article>
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="js/blog.js"></script>
+</head>
+<body>
+
+<!-- ================= HEADER ================= -->
+<header class="navbar">
+  <div class="logo">KB-Infinity<span>Lab</span></div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="research.html">Research</a>
+    <a href="projects.html">Projects</a>
+    <a href="publications.html">Publications</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="blog.html" class="active">Blog</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<!-- ================= HERO ================= -->
+<section class="hero blog-hero">
+  <h1>Research Blog & Technical Articles</h1>
+  <p>
+    Insights, publications, lab updates, and technical discussions
+    from KB-Infinity Lab on robotics, AI, intelligent control, and
+    cyber-physical systems.
+  </p>
 </section>
+
+<!-- ================= BLOG FILTER ================= -->
+<section class="section blog-controls">
+  <input type="text" id="searchInput" placeholder="Search articles...">
+
+  <select id="categoryFilter">
+    <option value="all">All Topics</option>
+    <option value="robotics">Robotics</option>
+    <option value="mpc">Intelligent Control (MPC)</option>
+    <option value="ai">Artificial Intelligence</option>
+    <option value="cyber">Cybersecurity</option>
+    <option value="lab">Lab Updates</option>
+  </select>
+</section>
+
+<!-- ================= BLOG LIST ================= -->
+<section class="section blog-grid" id="blogGrid">
+
+  <!-- BLOG POST -->
+  <article class="blog-card" data-category="robotics mpc">
+    <h2>Hybrid MPC for Autonomous Ground Vehicles in Urban Environments</h2>
+    <p class="meta">
+      <span>Robotics • MPC</span> | <span>March 2025</span>
+    </p>
+    <p class="excerpt">
+      This article explores the integration of Model Predictive Control (MPC)
+      with learning-based perception for real-time autonomous ground vehicle navigation
+      under uncertainty.
+    </p>
+    <a href="posts/mpc-agv.html" class="read-more">Read Article →</a>
+  </article>
+
+  <article class="blog-card" data-category="ai cyber">
+    <h2>Deep Learning-Based Intrusion Detection for IoT Networks</h2>
+    <p class="meta">
+      <span>AI • Cybersecurity</span> | <span>February 2025</span>
+    </p>
+    <p class="excerpt">
+      We present a hybrid CNN–Transformer–BiLSTM architecture for detecting
+      cyber attacks in resource-constrained IoT environments.
+    </p>
+    <a href="posts/ids-iot.html" class="read-more">Read Article →</a>
+  </article>
+
+  <article class="blog-card" data-category="lab">
+    <h2>KB-Infinity Lab: Robotics Testbed Setup & Field Experiments</h2>
+    <p class="meta">
+      <span>Lab Update</span> | <span>January 2025</span>
+    </p>
+    <p class="excerpt">
+      A behind-the-scenes look at our robotics lab setup, hardware platforms,
+      simulation tools, and field-testing methodology.
+    </p>
+    <a href="posts/lab-testbed.html" class="read-more">Read Article →</a>
+  </article>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+  <p>© 2025 KB-Infinity Lab — Research before hype.</p>
+</footer>
+
+</body>
+</html>
