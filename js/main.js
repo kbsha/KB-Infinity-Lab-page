@@ -6,3 +6,10 @@ document.querySelectorAll('a').forEach(link => {
         link.style.opacity = '1';
     });
 });
+
+const hamburger = document.querySelector('.hamburger');
+const navLinks = document.querySelector('.nav-links');
+
+hamburger.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+});
